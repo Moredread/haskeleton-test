@@ -7,3 +7,4 @@ ghc:
 before_install:
 - export PATH=$HOME/.cabal/bin:$PATH
 - cabal install happy
+- happy -v
